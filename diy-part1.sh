@@ -17,4 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Add parted
-svn co https://github.com/kousyougi/openwrt/trunk/parted package/parted
+# svn co https://github.com/kousyougi/openwrt/trunk/parted package/parted
