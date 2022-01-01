@@ -18,3 +18,6 @@
 
 # Add parted
 # svn co https://github.com/kousyougi/openwrt/trunk/parted package/parted
+
+# edit feeds.conf.default and replace https:// with git://
+sed -i 's/https\:\/\//git\:\/\//g' feeds.conf.default
